@@ -5,7 +5,7 @@ A simple library to make random choice by percentage and with some other useful 
 ## Installation
 
 ```sh
-npm install
+npm install pickpercent
 ```
 
 ## Usage
