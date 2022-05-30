@@ -5,10 +5,6 @@ export class PickPercent {
   private items: IAddItem[] = [];
 
   public add(option: IAddItem) {
-    if (option.percent < 0 || option.percent > 100) {
-      throw TypeError(`Item "${option.name}" - percentage out of range!`);
-    }
-
     this.items.push(option);
   }
 
@@ -21,7 +17,12 @@ export class PickPercent {
   public pick() {
     if (this.items.length === 0) return null;
 
-    let random = _.random(0, 100);
+    const totalWeight = this.items.reduce((acc, item) => {
+      acc += item.percent;
+      return acc;
+    }, -1);
+
+    let random = _.random(0, totalWeight);
 
     for (const item of this.items) {
       random -= item.percent;
