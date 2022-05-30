@@ -18,7 +18,7 @@ export class PickPercent {
     }
   }
 
-  public final() {
+  public pick() {
     if (this.items.length === 0) return null;
 
     let random = _.random(0, 100);
