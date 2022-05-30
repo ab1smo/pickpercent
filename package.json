@@ -5,7 +5,6 @@
   "author": "Abismo <kpnmnd13@gmail.com> (https://github.com/ab1smo)",
   "license": "MIT",
   "scripts": {
-    "postinstall": "husky install",
     "build": "rimraf ./dist && tsc",
     "lint": "eslint \"./**/*.ts\" --fix"
   },
