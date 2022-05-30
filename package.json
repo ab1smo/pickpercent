@@ -41,5 +41,11 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "keywords": [
+    "random",
+    "loot",
+    "loot-table",
+    "percent"
+  ]
 }
