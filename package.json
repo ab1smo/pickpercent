@@ -23,9 +23,6 @@
     "type": "git",
     "url": "git+https://github.com/ab1smo/pickpercent.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
