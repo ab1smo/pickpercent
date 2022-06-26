@@ -1,6 +1,6 @@
 {
   "name": "pickpercent",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple library to make random choice by percentage and with some other useful tools for percentage.",
   "author": "Abismo <kpnmnd13@gmail.com> (https://github.com/ab1smo)",
   "license": "MIT",
