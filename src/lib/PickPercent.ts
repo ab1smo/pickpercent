@@ -6,6 +6,8 @@ export class PickPercent {
 
   public add(option: IAddItem) {
     this.items.push(option);
+
+    return this;
   }
 
   public addMany(options: IAddItem[]) {
